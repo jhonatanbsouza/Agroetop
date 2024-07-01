@@ -1,7 +1,7 @@
 @import url(header.css);
 :root{
-    --cor-padrao: #d0f0d1;
-    --cor-cabecalho: #648666;
+    --cor-padrao: #ebf7ec;
+    --cor-cabecalho: #5d8153;
 }
 body{
     background-color: var(--cor-padrao)

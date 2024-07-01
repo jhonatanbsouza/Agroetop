@@ -32,18 +32,17 @@
 }
 .input-pesquisa{
     width: 300px;
-    height: 30px;
+    height: 35px;
     border-radius: 10px;
     border: none;
     padding: 10px;
-    text-align: center;
 }
 .input-pesquisa:focus{
     box-shadow: none;
 }
 .menu-lista-item:hover{
     transition: all 1s;
-background-color: rgb(132, 184, 129);
+background-color: #78aa6b
 }
 .usuario:hover{
     transition: all 1s;
