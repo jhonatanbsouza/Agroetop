@@ -22,12 +22,15 @@
     margin: 0;
     width: 400px;
 }
+.primeiro-cabecalho{
+    display: flex;
+    align-items: center;
+}
 .menu-lista-item{
     list-style: none;
     background-color: var(--cor-padrao);
     padding: 10px 15px;
     border-radius: 10px;
-    width: 100px;
     text-align: center;
 }
 .input-pesquisa{
@@ -70,6 +73,7 @@ div.usuario{
 
 .cabecalho-menu-usuario{
     display: none;
+    position: absolute;
     background-color: var(--cor-cabecalho);
     list-style: none;
     width: 100%;
