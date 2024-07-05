@@ -45,11 +45,11 @@
 }
 .menu-lista-item:hover{
     transition: all 1s;
-background-color:  #78aa6b;
+    background-color:  #46aa2e;
 }
 .usuario:hover{
     transition: all 1s;
-    background-color: rgb(132, 184, 129);
+    background-color: #46aa2e;
 }
 a{
     color: black;
@@ -97,8 +97,4 @@ div.usuario{
 .usu-menu-lista-item{
     background-color: white;
     padding: 1em;
-}
-span{
-    background-color: rgb(15, 14, 14);
-    color: white;
 }
