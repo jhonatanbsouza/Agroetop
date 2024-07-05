@@ -98,3 +98,7 @@ div.usuario{
     background-color: white;
     padding: 1em;
 }
+span{
+    background-color: rgb(15, 14, 14);
+    color: white;
+}
