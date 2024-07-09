@@ -1,6 +1,11 @@
 *{margin: 0;
     padding: 0;
 }
+header{
+    position: fixed;
+    top: 10px;
+    left: 10vw;
+}
 
 .cabecalho-logo-img{
     width: 70px;
@@ -12,7 +17,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 95%;
+    width: 95%;
+    max-width: 80vw;
 }
 .cabecalho-menu-lista{
     display: flex;
@@ -73,16 +79,20 @@ div.usuario{
 .cabecalho-menu-usuario{
     display: none;
     position: absolute;
+    top: 75%;
+    right: 1%;
     background-color: var(--cor-cabecalho);
     list-style: none;
     width: 100%;
-    max-width: 150px;
+    max-width: 100px;
+    
 }
 .cabecalho-menu-usuario:hover{
     display: block;
     position: absolute;
     background-color: var(--cor-padrao);
     list-style: none;
+    border-radius: 15px;
 }
 .usuario img{
     width: 24px;
@@ -90,13 +100,34 @@ div.usuario{
 .usuario:hover ~ .cabecalho-menu-usuario {
     display: block;
     position: absolute;
-    transition-duration: 2.5s;
-    transition-property: all;
+    border-radius: 15px;
 }
 .usu-menu-lista-item{
     background-color: #46aa2e;
     padding: 1em;
+    border-bottom: 1px solid white;
 }
+
+.usu-menu-lista-item:first-child{
+    border-radius: 10px 10px 0 0;
+}
+
+.usu-menu-lista-item:last-child{
+    border-radius: 0 0 10px 10px;
+}
+
+.main{
+    font-size: 30px;
+    padding: 100px;
+    margin: 100px;
+}
+.teste1{
+    color: blue;
+}
+.teste2{
+    color: green;
+}
+
 
 .usu-menu-lesta-item:hover{
     color:white;
