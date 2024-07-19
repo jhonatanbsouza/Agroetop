@@ -1,0 +1,65 @@
+.main{
+    padding: 100px;
+}
+.cursos-basicos-titulo{
+    padding: 20px;
+}
+.agrome{
+    padding: 25px;
+}
+.biotec{
+    padding: 25px;
+
+}
+.fisiologVA{
+    padding: 25px;
+
+}
+.cartografia{
+    padding: 25px;
+    
+}
+
+.adquira-mais-lista{
+    list-style: none;
+    padding: 20px;
+}
+.link-adquiraMais{
+    color: green;
+}
+
+.conteudo-adquirir-mais{
+    padding: 10px;
+}
+
+.lista-botao{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.planos-lista-item{
+   
+    padding: 15px;
+    border-radius: 10px;
+}
+.planos-lista-item:hover{
+    background-color: #46aa2e;
+    transition: all 1s;
+}
+
+.link-adquiraMais{
+    color:var(--cor-cabecalho)
+}
+
+.planos-definicao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    max-width: 100vw;
+    padding: 25px;
+   
+}
+
+

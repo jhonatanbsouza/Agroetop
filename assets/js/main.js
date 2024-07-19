@@ -3,13 +3,17 @@ const cabecalho = document.querySelector(".cabecalho")
 const input = document.querySelector(".input-pesquisa")
 const usuario = document.querySelector(".usuario")
 const menuListaItem = document.querySelectorAll(".menu-lista-item")
-const link = document.querySelectorAll('a')
+const link = document.querySelectorAll('.link-menu-lista')
 const linkMenuLateral = document.querySelectorAll(".link-menu-lateral")
+const Main = document.querySelector('.main')
+const linkAdquirir = document.querySelectorAll('.link-adquiraMais')
+const linkPlanos = document.querySelectorAll('.link-planos-lista')
+
 temaEscuro.onclick = function(){
 
-    if (temaEscuro.textContent == "Escuro"){
+    if (temaEscuro.textContent == "Tema Escuro"){
         document.body.style.backgroundColor = "#282c27"
-        temaEscuro.textContent = "Claro"
+        temaEscuro.textContent = "Tema Claro"
         menuListaItem[0].style.backgroundColor = "#282c27"
         menuListaItem[0].style.color = "#FFFFFF"
         menuListaItem[1].style.backgroundColor = "#282c27"
@@ -19,6 +23,9 @@ temaEscuro.onclick = function(){
         usuario.style.backgroundColor = "#282c27"
         usuario.style.color = "#FFFFFF"
 
+        Main.style.color = "#FFFFFF"
+        
+
         for (let i = 0 ; i < link.length ; i++){
             link[i].style.color = '#FFFFFF'
         }
@@ -26,11 +33,19 @@ temaEscuro.onclick = function(){
             linkMenuLateral[j].style.color = '#000000'
         }
 
+        for (let k = 0 ; k < linkAdquirir.length ; k++){
+            linkAdquirir[k].style.color = "green"
+        }
+
+        for (let l = 0 ; l < linkPlanos.length ; l++){
+            linkPlanos[l].style.color = "FFFFFF"
+        }
+
 
 
     } else {
         document.body.style.backgroundColor = "#FFFFFF"
-        temaEscuro.textContent = "Escuro"
+        temaEscuro.textContent = "Tema Escuro"
 
         
         menuListaItem[0].style.backgroundColor = "#FFFFFF"
@@ -41,9 +56,16 @@ temaEscuro.onclick = function(){
         input.style.color = "#000000"
         usuario.style.backgroundColor = "#FFFFFF"
         usuario.style.color = "#000000"
+
+        Main.style.color = "#000000"
+
         console.log(linkMenuLateral)
         for (let i = 0 ; i < link.length ; i++){
             link[i].style.color = '#000000'
+        }
+        console.log(linkPlanos)
+        for (let l = 0 ; l < linkPlanos.length ; l++){
+            linkPlanos[l].style.color = "000000"
         }
 
       

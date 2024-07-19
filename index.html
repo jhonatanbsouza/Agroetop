@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AgroTop</title>
+    <title>TerraFertil</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header class="cabecalho">
        <div class="primeiro-cabecalho">
         <div class="cabecalho-logo">
-            <a href="#"><img src="assets/img/logo.png" alt="" class="cabecalho-logo-img"></a>
+            <a href="#"><img src="assets/img/logo terrafertil.png" alt="" class="cabecalho-logo-img"></a>
         </div>
         <div class="input">
             <input class="input-pesquisa" type="search" placeholder="Pesquisar cursos" name="" id="">
@@ -18,9 +18,9 @@
        </div>
         <div class="cabecalho-menu">
             <ul class="cabecalho-menu-lista">
-                <li class="menu-lista-item"><a href="#meus-cursos">Meus Cursos</a></li>
-                <li class="menu-lista-item"><a href="#">Adquirir Mais</a></li>
-                <li class="menu-lista-item"><a href="#tema">Planos</a></li>
+                <li class="menu-lista-item"><a class="link-menu-lista" href="#cursos-basicos">Cursos Básicos</a></li>
+                <li class="menu-lista-item"><a class="link-menu-lista" href="#adquirir-mais">Adquirir Mais</a></li>
+                <li class="menu-lista-item"><a class="link-menu-lista" href="#planos">Planos</a></li>
             </ul>
         </div>
         <div class="cabecalho-conta">
@@ -31,39 +31,69 @@
             
             <ul class="cabecalho-menu-usuario">
                 <li class="usu-menu-lista-item"><a class="link-menu-lateral" href="#">Minha Conta</a></li>
+                <li class="usu-menu-lista-item"><a class="link-menu-lateral" href="#">Meus Cursos</a></li>
                 <li class="usu-menu-lista-item"><a class="link-menu-lateral" href="#">Suporte</a></li>
-                <li class="usu-menu-lista-item"><a class="link-menu-lateral" href="#">Tema <span class="tema-escuro">Escuro</span></a></li>
+                <li class="usu-menu-lista-item"><a class="link-menu-lateral" href="#"><span class="tema-escuro">Tema Escuro</span></a></li>
                 <li class="usu-menu-lista-item"><a class="link-menu-lateral" href="#">Sair</a></li>
             </ul>
 
         </div>
     </header>
     <section class="main">
-        <div id="meus-cursos" class="teste1">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/3En54_hjFq4?si=7LgUCSHgovZ5RSIv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="conteudo-começo">
+            <h3>TerraFértil</h3>
+            <p class="texto-comeco">O site "TerraFértil" foi criado com o intuito de ajudar as pessoas a se especializarem na área de agronomia de forma objetiva. Aqui você pode encontrar diversos cursos que te ajudam a ter mais conhecimento sobre diversas áreas desse ramo de forma rápida e prática.</p>
+
+        </div>
+        <div id="cursos-basicos" class="conteudo-cursos-basicos">
+            <h2 class="cursos-basicos-titulo">Cursos Básicos:</h2>
+            <div class="agrome">
+            <h3 class="agrome-titulo">Agrometeorologia</h3>
+              <p class="agrome-conteudo">O curso de Agrometeorologia mostra a interação entre meteorologia e agricultura, ensinando os principais temas da meteorologia como a interação dos fenômenos meteorológicos e seus impactos na cadeia produtiva do sistema agropecuário da agricultura e do impacto do clima nas culturas, mostrando como escolher o melhor dia para iniciar o plantio da safra, manejo e irrigação do solo, e também definir o calendário de atividades das lavouras.</p>
+            </div>
+            <div class="biotec">
+            <h3 class="biotec-titulo">Biotecnologia</h3>
+               <p class="biotec-conteudo">O curso de biotecnologia é um campo de estudo fundamental para criar produtos ou solucionar problemas em diversos setores, como agricultura, saúde, indústria alimentícia e ambiental. Oferece uma formação completa das aplicação de técnicas como engenharia genética, genômica, biologia molecular, cultivo celular e bioinformática. Questões éticas e regulamentações também são discutidas, preparando para atuar em pesquisa científica, desenvolvimento de produtos e diversas aplicações industriais e médicas.</p>
+            </div>
+            <div class="fisiologVA">
+            <h3 class="fisiologVA-titulo">Fisiologia Vegetal e Animal</h3>
+              <p class="fisiologVA-conteudo">No curso de fisiologia vegetal e animal entendemos o funcionamento dos vegetais como a fotossíntese, respiração, transporte de nutrientes e água, e crescimento em plantas, além de explorar a função dos hormônios e respostas ao estresse. Em animais, o foco está nos sistemas de órgãos, homeostase, metabolismo energético, neurofisiologia e respostas ao estresse.</p>
+            </div>
+            <div class="cartografia">
+            <h3 class="cartografia-titulo">Cartografia</h3>
+              <p class="cartografia-conteudo">No curso de cartografia, a função principal da cartografia é a de representar graficamente a superfície terrestre e de espacializar os diferentes fenômenos e aspectos que são característicos, a aplicação da cartografia no planejamento rural baseia em princípios fundamentais, como a representação precisa e detalhada do espaço geográfico, a utilização de simbologia adequada para a representação de elementos rurais, aprendem a criar e interpretar mapas, cobrindo conceitos fundamentais, projeções cartográficas, sistemas de coordenadas e simbologia.</p>
+            </div>
         </div>
 
-        <div id="tema" class="teste2">
+        <div id="adquirir-mais" class="conteudo-adquirir-mais">
+        <h2 class="adquira-mais-titulo">Adquira Mais:</h2>
+        <ul class="adquira-mais-lista">
+            <h4><li>Aquira Mais Cursos:</li></h4>
+            <li class="aquiraMais-lista-item"><a class="link-adquiraMais" href="#">Manejo Integrado de Pragas e Doenças:</a>Um curso focado em estratégias sustentáveis para controlar pragas e doenças em culturas agrícolas, utilizando métodos biológicos, químicos e culturais.</li>
+            <li class="aquiraMais-lista-item"><a class="link-adquiraMais" href="#">Agroecologia:</a> Este curso enfatiza práticas agrícolas que são socialmente justas, economicamente viáveis ​​e ecologicamente sustentáveis, integrando princípios ecológicos à produção agrícola.</li>
+            <li class="aquiraMais-lista-item"><a class="link-adquiraMais" href="#">Tecnologia de Produção de Sementes:</a>Este curso foca no estudo e aplicação de técnicas avançadas para melhorar a qualidade, viabilidade e eficiência na produção de sementes agrícolas.</li>
+            <li class="aquiraMais-lista-item"><a class="link-adquiraMais" href="#">Nutrição de Plantas:</a>Um curso que explora os princípios da nutrição mineral de plantas, incluindo a absorção de nutrientes, diagnóstico de deficiências e práticas de fertilização adequadas.</li>
+            <li class="aquiraMais-lista-item"><a class="link-adquiraMais" href="#">Economia e Gestão Rural:</a>Um curso que abrange o estudo das práticas econômicas e estratégias de gestão aplicadas às atividades agrícolas e agropecuárias, visando maximizar a eficiência e sustentabilidade das operações no meio rural.</li>
+            <li class="aquiraMais-lista-item"><a class="link-adquiraMais" href="#">Sistemas Agroflorestais:</a>Focado na integração de árvores, culturas agrícolas e animais em sistemas sustentáveis ​​que promovem a biodiversidade, a conservação do solo e o uso eficiente de recursos.</li>
+            <li class="aquiraMais-lista-item"><a class="link-adquiraMais" href="#">Horticultura:</a>É um programa educacional que explora o cultivo, manejo e produção de plantas hortícolas, focando em técnicas de cultivo, melhoramento genético, manejo de pragas e doenças, e práticas sustentáveis para otimizar a produção de alimentos e ornamentais.</li>
             
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
-
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sapiente iste aliquid quia quo optio neque vero, possimus excepturi numquam odio ratione magnam nemo recusandae eius odit ipsa dicta debitis!</p>
+        </ul>
         </div>
+
+        <div id="planos" class="conteudo-planos">
+            <h3 class="planos-titulo">Planos:</h3>
+        <ul class="lista-botao">
+            <li class="planos-lista-item"><a class="link-planos-lista" href="#">Planos Semanais</a></li>
+            
+            <li class="planos-lista-item"><a class="link-planos-lista" href="#">Planos Mensais</a></li>
+            <li class="planos-lista-item"><a class="link-planos-lista" href="#">Planos Anuais</a></li>
+           
+        </ul>
+    </div>
+    <div class="planos-definicao">
+        <p class="planos-semanais-definicao">>Neste tipo de plano você paga semanalmente um valor específico por tipo de plano (Ex:pro, premium, plus) e ganha as devidas recompensas. Em todos eles você consegue diversos tipos de cursos juntos.</p>
+        <p class="planos-mensais-definicao">>Neste plano você paga mensalmente um valor específico por tipo de plano e recebe as recompenas de cada um. Em todos eles você recebe cursos diversos e videoaulas diversas.</p>
+            </div>
     </section>
 
     <script src="assets/js/main.js"></script>
