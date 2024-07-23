@@ -6,8 +6,7 @@ const menuListaItem = document.querySelectorAll(".menu-lista-item")
 const link = document.querySelectorAll('.link-menu-lista')
 const linkMenuLateral = document.querySelectorAll(".link-menu-lateral")
 const Main = document.querySelector('.main')
-const linkAdquirir = document.querySelectorAll('.link-adquiraMais')
-const linkPlanos = document.querySelectorAll('.link-planos-lista')
+const planosLink = document.querySelectorAll(".link-planos-lista")
 
 temaEscuro.onclick = function(){
 
@@ -32,14 +31,12 @@ temaEscuro.onclick = function(){
         for (let j = 0 ; j < linkMenuLateral.length ; j++){
             linkMenuLateral[j].style.color = '#000000'
         }
-
-        for (let k = 0 ; k < linkAdquirir.length ; k++){
-            linkAdquirir[k].style.color = "green"
+        for (let k = 0 ; k < planosLink.length ; k++){
+            planosLink[k].style.color = '#FFFFFF'
         }
 
-        for (let l = 0 ; l < linkPlanos.length ; l++){
-            linkPlanos[l].style.color = "FFFFFF"
-        }
+
+        
 
 
 
@@ -63,11 +60,10 @@ temaEscuro.onclick = function(){
         for (let i = 0 ; i < link.length ; i++){
             link[i].style.color = '#000000'
         }
-        console.log(linkPlanos)
-        for (let l = 0 ; l < linkPlanos.length ; l++){
-            linkPlanos[l].style.color = "000000"
+        for (let k = 0 ; k < planosLink.length ; k++){
+            planosLink[k].style.color = '#000000'
         }
-
+        
       
     
     }

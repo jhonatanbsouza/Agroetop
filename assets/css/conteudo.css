@@ -1,36 +1,130 @@
 .main{
     padding: 100px;
 }
-.cursos-basicos-titulo{
+h2{
+    color: green;
+    align-items: center;
     padding: 20px;
+    display: center;
+    text-align: center;
 }
-.agrome{
-    padding: 25px;
-}
-.biotec{
-    padding: 25px;
 
+h4{
+    color: green;
 }
-.fisiologVA{
-    padding: 25px;
 
+.cursos-basicos-estrutura1{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: inherit;
 }
-.cartografia{
-    padding: 25px;
-    
+
+
+
+.agrome-conteudo{
+    display: none;
+    position: absolute;
+    max-width: 40vw;
+    top: 1080px;
 }
+.agrome-conteudo:hover{
+    display: block;
+    position: absolute;
+    max-width: 40vw;
+}
+.agrometeorologia-img{
+    width: 500px;
+    height: 500px;
+}
+.agrometeorologia-img:hover ~ .agrome-conteudo{
+    display: block;
+    position: flex;
+    max-width: 40vw;
+}
+
+
+.biotec-conteudo{
+    display:none;
+    position: absolute;
+    max-width: 40vw;
+    top: 1080px;
+}
+.biotec-conteudo:hover{
+    display: block;
+    position: absolute;
+}
+.biotec-img{
+    width: 500px;
+    height: 500px;
+}
+.biotec-img:hover ~ .biotec-conteudo{
+    display: block;
+    position: absolute;
+}
+
+
+
+.cursos-basicos-estrutura2{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: inherit;
+}
+
+.fisiologVA-conteudo{
+    display: none;
+    position: absolute;
+    max-width: 40vw;
+    top: 1650px;
+}
+.fisiologVA-conteudo:hover{
+    display: block;
+    position: absolute;
+    max-width: 40vw;
+}
+.fisiologVA-img{
+    width: 500px;
+    height: 500px;
+}
+.fisiologVA-img:hover ~ .fisiologVA-conteudo{
+    display: block;
+    position: absolute;
+}
+
+
+.cartografia-conteudo{
+    display: none;
+    position: absolute;
+    max-width: 40vw;
+    top: 1650px;
+}
+.cartografia-conteudo:hover{
+    display: block;
+    position: absolute;
+    max-width: 40vw;
+}
+.cartigrafia-img{
+    width: 500px;
+    height: 500px;
+}
+.cartografia-img:hover ~ .cartografia-conteudo{
+    display: block;
+    position: absolute;
+}
+
+
 
 .adquira-mais-lista{
-    list-style: none;
+    list-style: circle;
     padding: 20px;
-}
-.link-adquiraMais{
-    color: green;
 }
 
 .conteudo-adquirir-mais{
     padding: 10px;
 }
+
+
 
 .lista-botao{
     list-style: none;
@@ -48,9 +142,6 @@
     transition: all 1s;
 }
 
-.link-adquiraMais{
-    color:var(--cor-cabecalho)
-}
 
 .planos-definicao{
     display: flex;
