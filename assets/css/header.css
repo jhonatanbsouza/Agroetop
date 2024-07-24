@@ -103,10 +103,13 @@ div.usuario{
     border-bottom: 1px solid white;
 }
 
+
 .usu-menu-lista-item:first-child{
     border-radius: 10px 10px 0 0;
 }
-
+.usu-menu-lista-item:hover{
+    opacity: 0.9;
+}
 .usu-menu-lista-item:last-child{
     border-radius: 0 0 10px 10px;
 }
@@ -115,9 +118,4 @@ div.usuario{
     font-size: 30px;
     padding: 100px;
     margin: 100px;
-}
-
-
-.usu-menu-lesta-item:hover{
-    color:white;
 }
