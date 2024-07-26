@@ -19,9 +19,6 @@ h4{
     display: flex;
     position: inherit;
 }
-
-
-
 .agrome-conteudo{
     background-color: white;
     display: none;
@@ -137,18 +134,40 @@ h4{
 }
 #planos{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: start
 }
 .planos-lista-item{
    
     padding: 15px;
     border-radius: 10px;
 }
+.adquirir{
+    background-color: #bcd1b7;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+.botao-adquirir button{
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    width: 100px;
+    background-color: #46aa2e;
+    color: #bcd1b7;
+    border-radius: 10px;
+}
 .planos-lista-item:hover{
     background-color: #46aa2e;
+    color: #bcd1b7;
     transition: all 1s;
 }
-
+.plano-tipo{
+    padding: 5px;
+    margin: 10px;
+    max-width: 400px;
+    width: 100%;
+}
 
 .planos-definicao{
     display: flex;
