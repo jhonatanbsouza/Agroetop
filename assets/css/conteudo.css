@@ -1,6 +1,9 @@
 
 .main{
-    padding: 100px;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 50px;
 }
 h2{
     color: green;
@@ -13,7 +16,11 @@ h2{
 h4{
     color: green;
 }
-
+.conteudo-cursos-basicos{
+    display: flex;
+    max-width: 1200px;
+    padding: 10px;
+}
 .cursos-basicos-estrutura1{
     align-items: center;
     justify-content: space-between;
@@ -160,6 +167,11 @@ h4{
     padding: 15px;
     text-align: center;
 }
+.adquirir:hover{
+    background-color: #46aa2e;
+    color: #bcd1b7;
+    transition: all 1s;
+}
 .botao-adquirir button{
     font-size: 20px;
     cursor: pointer;
@@ -170,6 +182,12 @@ h4{
     color: #bcd1b7;
     border-radius: 10px;
 }
+.botao-adquirir button:hover{
+    background-color: #bcd1b7;
+    color: #46aa2e;
+    transition: all 1;
+}
+
 .planos-lista-item:hover{
     background-color: #46aa2e;
     color: #bcd1b7;
