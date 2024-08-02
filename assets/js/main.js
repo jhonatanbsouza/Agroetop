@@ -8,6 +8,7 @@ const linkMenuLateral = document.querySelectorAll(".link-menu-lateral")
 const Main = document.querySelector('.main')
 const planosLink = document.querySelectorAll(".link-planos-lista")
 
+
 temaEscuro.onclick = function(){
 
     if (temaEscuro.textContent == "Tema Escuro"){
@@ -23,6 +24,7 @@ temaEscuro.onclick = function(){
         usuario.style.color = "#FFFFFF"
 
         Main.style.color = "#FFFFFF"
+        
         
 
         for (let i = 0 ; i < link.length ; i++){

@@ -1,3 +1,4 @@
+
 .main{
     padding: 100px;
 }
@@ -19,12 +20,23 @@ h4{
     display: flex;
     position: inherit;
 }
+.texto-conteudo{
+    border: 1px solid #bcd1b7;
+    border-radius: 10px;
+    background-color: #bcd1b7;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+    font-variant: small-caps;
+}
 .agrome-conteudo{
-    background-color: white;
     display: none;
     position: absolute;
     max-width: 40vw;
-    top: 1080px;
+    top: 1070px;
 }
 .agrome-conteudo:hover{
     display: block;
@@ -46,7 +58,6 @@ h4{
     display:none;
     position: absolute;
     max-width: 40vw;
-    background-color: white;
     top: 1080px;
 }
 .biotec-conteudo:hover{
@@ -76,7 +87,6 @@ h4{
     position: absolute;
     max-width: 40vw;
     top: 1650px;
-    background-color: white;
 }
 .fisiologVA-conteudo:hover{
     display: block;
@@ -104,7 +114,7 @@ h4{
     position: absolute;
     max-width: 40vw;
 }
-.cartigrafia-img{
+.cartografia-img{
     width: 500px;
     height: 500px;
 }
@@ -123,7 +133,9 @@ h4{
 .conteudo-adquirir-mais{
     padding: 10px;
 }
-
+.aquiraMais-lista-item{
+    padding: 10px 0;
+}
 
 
 .lista-botao{
@@ -150,6 +162,7 @@ h4{
 }
 .botao-adquirir button{
     font-size: 20px;
+    cursor: pointer;
     padding: 5px;
     border: none;
     width: 100px;

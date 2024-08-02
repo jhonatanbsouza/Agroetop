@@ -5,6 +5,7 @@ header{
     position: fixed;
     top: 10px;
     left: 10vw;
+    z-index: 1;
 }
 
 .cabecalho-logo-img{
@@ -56,10 +57,11 @@ a{
 }
 a:hover{
     color: green;
+    text-decoration: none;
    
 }
 a:visited{
-    color:black;
+    color:none;
 }
 div.usuario{
     display: flex;
