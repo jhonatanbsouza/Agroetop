@@ -1,9 +1,6 @@
 
 .main{
-    max-width: 1200px;
-    width: 100%;
-    flex-wrap: wrap;
-    padding: 50px;
+    padding: 100px;
 }
 h2{
     color: green;
@@ -16,18 +13,11 @@ h2{
 h4{
     color: green;
 }
-.conteudo-cursos-basicos{
-    display: flex;
-    max-width: 1200px;
-    padding: 10px;
-}
-.cursos-basicos-estrutura1{
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    position: inherit;
-}
+
+
 .texto-conteudo{
+    display: none;
+    position: absolute;
     border: 1px solid #bcd1b7;
     border-radius: 10px;
     background-color: #bcd1b7;
@@ -38,96 +28,17 @@ h4{
     font-size: 20px;
     font-weight: 300;
     font-variant: small-caps;
+    
 }
-.agrome-conteudo{
-    display: none;
-    position: absolute;
-    max-width: 40vw;
-    top: 1070px;
+
+.curso-basico-img{
+    width: 400px;
+    height: 400px;
 }
-.agrome-conteudo:hover{
-    display: block;
-    position: absolute;
-    max-width: 40vw;
-}
-.agrometeorologia-img{
-    width: 500px;
-    height: 500px;
-}
-.agrometeorologia-img:hover ~ .agrome-conteudo{
+.curso-basico-img:hover ~ .texto-conteudo{
     display: block;
     position: flex;
-    max-width: 40vw;
-}
-
-
-.biotec-conteudo{
-    display:none;
-    position: absolute;
-    max-width: 40vw;
-    top: 1080px;
-}
-.biotec-conteudo:hover{
-    display: block;
-    position: absolute;
-}
-.biotec-img{
-    width: 500px;
-    height: 500px;
-}
-.biotec-img:hover ~ .biotec-conteudo{
-    display: block;
-    position: absolute;
-}
-
-
-
-.cursos-basicos-estrutura2{
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    position: inherit;
-}
-
-.fisiologVA-conteudo{
-    display: none;
-    position: absolute;
-    max-width: 40vw;
-    top: 1650px;
-}
-.fisiologVA-conteudo:hover{
-    display: block;
-    position: absolute;
-    max-width: 40vw;
-}
-.fisiologVA-img{
-    width: 500px;
-    height: 500px;
-}
-.fisiologVA-img:hover ~ .fisiologVA-conteudo{
-    display: block;
-    position: absolute;
-}
-
-
-.cartografia-conteudo{
-    display: none;
-    position: absolute;
-    max-width: 40vw;
-    top: 1650px;
-}
-.cartografia-conteudo:hover{
-    display: block;
-    position: absolute;
-    max-width: 40vw;
-}
-.cartografia-img{
-    width: 500px;
-    height: 500px;
-}
-.cartografia-img:hover ~ .cartografia-conteudo{
-    display: block;
-    position: absolute;
+    max-width: 450px;
 }
 
 
@@ -136,7 +47,15 @@ h4{
     list-style: circle;
     padding: 20px;
 }
-
+.cursos-basicos{
+    padding: 10px;
+}
+.conteudo-cursos-basicos{
+    padding: 10px;
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
 .conteudo-adquirir-mais{
     padding: 10px;
 }
@@ -167,10 +86,9 @@ h4{
     padding: 15px;
     text-align: center;
 }
-.adquirir:hover{
-    background-color: #46aa2e;
-    color: #bcd1b7;
-    transition: all 1s;
+.botao-adquirir button:hover{
+    animation-duration: 2s;
+    animation-name: tamanho;
 }
 .botao-adquirir button{
     font-size: 20px;
@@ -182,12 +100,6 @@ h4{
     color: #bcd1b7;
     border-radius: 10px;
 }
-.botao-adquirir button:hover{
-    background-color: #bcd1b7;
-    color: #46aa2e;
-    transition: all 1;
-}
-
 .planos-lista-item:hover{
     background-color: #46aa2e;
     color: #bcd1b7;
@@ -211,3 +123,25 @@ h4{
 }
 
 
+@keyframes roda {
+    from{
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes tamanho{
+    0% {
+       color: #bcd1b7;
+       
+    }
+    50% {
+        color: aqua;
+        width: 100%;
+    }
+    100%{ 
+       color: #bcd1b7;
+    }
+}
