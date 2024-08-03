@@ -42,17 +42,14 @@ header{
     text-align: center;
 }
 .input-pesquisa{
-    padding-left: 10px;
-}
-.input-pesquisa{
     width: 300px;
     height: 35px;
+    padding-left: 10px;
     border-radius: 10px;
     border: none;
     padding: 10px;
     background-color: var(--cor-padrao);
     border: 2px solid white;
-    color: green;
 }
 .input-pesquisa:focus{
     box-shadow: none;
@@ -101,6 +98,9 @@ div.usuario{
 .usuario img{
     width: 24px;
 }
+.menu-lista-item:hover{
+    color: green;
+}
 .usuario:hover ~ .cabecalho-menu-usuario {
     display: block;
     position: absolute;
@@ -122,7 +122,6 @@ div.usuario{
 .input-pesquisa::placeholder{
     text-align: center;
     font-size: 14px;
-    color: green;
 }
 .usu-menu-lista-item:last-child{
     border-radius: 0 0 10px 10px;
