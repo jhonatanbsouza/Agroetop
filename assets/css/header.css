@@ -11,6 +11,9 @@ header{
 .cabecalho-logo-img{
     width: 70px;
 }
+.tema-escuro:hover{
+    cursor: pointer;
+}
 .cabecalho{
     background-color: var(--cor-cabecalho);
     margin: 5px auto;
